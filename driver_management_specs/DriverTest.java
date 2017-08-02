@@ -13,4 +13,9 @@ public class DriverTest {
     driver = new Driver("Herbert", dodgemcar);
   }
 
+  @Test
+  public void driveDistanceReturnsTime() {
+    assertEquals(1, driver.driveTime(10));
+  }
+
 }

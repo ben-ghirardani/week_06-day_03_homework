@@ -3,7 +3,7 @@ import behaviours.*;
 
 public class DodgemCar implements Driveable {
 
-  private int averageSpeed;
+  public int averageSpeed;
   private int numSeats;
 
   public DodgemCar(int averageSpeed, int numSeats) {
