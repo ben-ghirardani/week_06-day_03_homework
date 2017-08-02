@@ -2,19 +2,18 @@ import static org.junit.Assert.*;
 import org.junit.*;
 import driver_management.*;
 
-public class DodgemCarTest {
+public class QuadBikeTest {
 
-  DodgemCar dodgemCar;
+  QuadBike quadbike;
 
   @Before
   public void before() {
-    dodgemCar = new DodgemCar(10, 2);
+    quadbike = new QuadBike(10, 50);
   }
 
   @Test
   public void driveDistanceReturnsTime() {
-    assertEquals(1, dodgemCar.driveTime(10));
+    assertEquals(1, quadbike.driveTime(10));
   }
-
 
 }
